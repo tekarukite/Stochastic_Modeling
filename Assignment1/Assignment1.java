@@ -155,7 +155,6 @@ public class Assignment1 {
         return durations;
     }
 
-    /*  ONLY CHANGE generateNext in the LCG class */
     public class LCG {
         public double seed;
         public final double m;
@@ -174,8 +173,7 @@ public class Assignment1 {
         }
         
         public double generateNext(boolean normalize){
-            // implement the pseudo-code algorithm here. You're code should be able to return both normalized and regular numbers based on the value of normalize.
-        	
+            
         	int z = (int)(this.a * this.lastOutput + this.c);
         	z = z % (int) this.m;
         	this.lastOutput = z;
