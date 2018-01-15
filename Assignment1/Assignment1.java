@@ -136,7 +136,6 @@ public class Assignment1 {
         return durations;
     }    
 
-    /* DO NOT CHANGE THESE FUNCTIONS BELOW, THESE FUNCTIONS ARE USED DURING GRADING */
     public double[] Question1(double givenSeed, int numOutputs, boolean normalize) {
         prng = new LCG(givenSeed,a,c,m);
         double[] result = new double[numOutputs];
